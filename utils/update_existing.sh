@@ -30,15 +30,13 @@ git checkout $MAIN_BRANCH || { echo "Échec du checkout sur la branche '$MAIN_BR
 # Mise à jour des dernières modifications dans la branche principale
 git pull origin $MAIN_BRANCH || { echo "Échec du pull sur la branche '$MAIN_BRANCH'."; exit 1; }
 
-# Mettre à jour uniquement les fichiers existants dans la branche cible
-for FILE in $FILES; do
-    if git ls-tree -r --name-only HEAD | grep -q "^$FILE$"; then
-        git checkout $MAIN_BRANCH -- "$FILE" || { echo "Échec de la mise à jour du fichier '$FILE'."; exit 1; }
-    fi
-done
-
-# Basculer sur la branche cible à nouveau
+# Basculer à nouveau sur la branche cible pour appliquer les modifications
 git checkout $TARGET_BRANCH || { echo "Échec du checkout sur la branche '$TARGET_BRANCH'."; exit 1; }
+
+# Mettre à jour les fichiers existants dans la branche cible avec ceux de la branche main
+for FILE in $FILES; do
+    git checkout $MAIN_BRANCH -- "$FILE" || { echo "Échec de la mise à jour du fichier '$FILE'."; exit 1; }
+done
 
 # Ajouter les modifications à l'index
 git add .
