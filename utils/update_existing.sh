@@ -48,3 +48,5 @@ git commit -m "Update existing files from '$MAIN_BRANCH' into '$TARGET_BRANCH'"
 git push origin $TARGET_BRANCH || { echo "Échec du push sur la branche '$TARGET_BRANCH'."; exit 1; }
 
 echo "Les fichiers existants dans '$TARGET_BRANCH' ont été mis à jour à partir de '$MAIN_BRANCH'."
+
+git switch main
