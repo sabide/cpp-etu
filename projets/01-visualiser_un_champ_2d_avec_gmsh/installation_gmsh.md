@@ -22,7 +22,7 @@ cmake .. -DCMAKE_BUILD_TYPE=Release \
          -DENABLE_FLTK=OFF \
          -DENABLE_BUILD_SHARED=ON \
          -DENABLE_BUILD_DYNAMIC=ON \
-         -DCMAKE_INSTALL_PREFIX= PATH_DE_LINSTALLE
+         -DCMAKE_INSTALL_PREFIX=~/local/gmsh/
 make -j$(nproc)
 sudo make install
 ```

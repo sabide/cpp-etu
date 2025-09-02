@@ -36,6 +36,12 @@ Vous devez écrire un programme C++ qui réalise les étapes suivantes :
 5. Créer une "view" dans Gmsh et associer à chaque nœud la valeur calculée.  
 6. Sauvegarder le fichier `.msh` puis le visualiser avec l’interface graphique.
 
+## Compilation
+export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:~/local/gmsh/lib/
+g++ main.cpp -o main.x -I~/local/gmsh/include/ ~/local/gmsh/lib/libgmsh.so
+
+
+
 ## Résultat attendu
 
 À l’issue du TD, vous devez obtenir un fichier de maillage enrichi par un champ scalaire.  
