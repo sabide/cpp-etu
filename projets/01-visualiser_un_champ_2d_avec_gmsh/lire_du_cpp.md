@@ -37,9 +37,10 @@ Vous devez écrire un programme C++ qui réalise les étapes suivantes :
 6. Sauvegarder le fichier `.msh` puis le visualiser avec l’interface graphique.
 
 ## Compilation
+```sh
 export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:~/local/gmsh/lib/
 g++ main.cpp -o main.x -I~/local/gmsh/include/ ~/local/gmsh/lib/libgmsh.so
-
+```
 
 
 ## Résultat attendu
