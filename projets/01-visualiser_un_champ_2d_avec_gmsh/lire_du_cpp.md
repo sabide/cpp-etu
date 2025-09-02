@@ -40,6 +40,8 @@ Vous devez écrire un programme C++ qui réalise les étapes suivantes :
 ```sh
 export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:~/local/gmsh/lib/
 g++ main.cpp -o main.x -I~/local/gmsh/include/ ~/local/gmsh/lib/libgmsh.so
+cp
+
 ```
 
 
