@@ -1,16 +1,23 @@
 # Séance 2 — Fonctions, bibliothèque standard et ressources
 
-## Objectif
+## Objectifs
 
-Comprendre pourquoi données et opérations doivent progressivement être
-rapprochées dans un même objet.
+Cette séance présente la surcharge, `std::string`, `std::vector`, la compilation
+séparée et les fonctions membres. Le fil rouge `IntArray` permet de comparer
+la gestion manuelle d'une ressource avec les services fournis par la
+bibliothèque standard.
 
-La séance présente la surcharge, `std::string`, `std::vector`, `nullptr`, la
-gestion manuelle avec `new[]` et `delete[]`, la compilation séparée et les
-fonctions membres. Elle se termine sur deux problèmes : les champs restent
-publics et copier un pointeur ne copie pas les données.
+## Conseils de travail
 
-## Contenu
+- Pour une surcharge, comparez les arguments de l'appel aux signatures
+  disponibles.
+- Repérez les fonctions qui modifient un objet et celles qui l'observent.
+- Compilez chaque fichier séparément pour bien distinguer déclaration et
+  définition.
+- Une fonction membre rapproche une opération de ses données, mais des champs
+  publics peuvent encore rendre l'objet incohérent.
 
-- `cours/` : support projeté et exemples de live-code ;
+## Fichiers
+
+- `cours/` : support de cours ;
 - `td/enonce/` : sujet du TD/TP et projet `IntArray` de départ.

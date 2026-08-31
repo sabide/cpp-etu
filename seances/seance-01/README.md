@@ -1,18 +1,21 @@
 # Séance 1 — Du C au C++ moderne
 
-## Objectif
+## Objectifs
 
-Comprendre comment les types et les signatures expriment l'intention du
-programmeur.
+Cette première séance montre comment les types et les signatures expriment
+l'intention du programmeur. Elle introduit l'initialisation avec `{}`, `const`,
+les références et le choix entre `T`, `T&` et `const T&`.
 
-La séance introduit l'initialisation avec `{}`, `const`, les références et la
-lecture de `T`, `T&` et `const T&`. Le fil rouge `IntArray` conserve encore une
-gestion manuelle de la mémoire.
+## Conseils de travail
 
-## Contenu
+- Lisez d'abord une signature avant de regarder le corps de la fonction.
+- Prévoyez si un appel copie, modifie ou observe l'objet fourni.
+- Lorsqu'une compilation échoue, repérez dans le diagnostic le type attendu et
+  le type effectivement fourni.
+- Gardez à l'esprit que la mémoire de `IntArray` reste encore gérée
+  manuellement à ce stade.
 
-- `cours/` : support projeté et exemples de live-code ;
+## Fichiers
+
+- `cours/` : support de cours ;
 - `td/enonce/` : sujet du TD/TP et code de départ.
-
-Le TD suit la démarche : prédire, compiler, lire le diagnostic, expliquer puis
-corriger selon l'intention.
