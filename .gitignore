@@ -1,0 +1,7 @@
+.DS_Store
+build/
+*.dSYM/
+*.o
+*.out
+*.exe
+int_array
