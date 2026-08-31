@@ -12,5 +12,5 @@ publics et copier un pointeur ne copie pas les données.
 
 ## Contenu
 
-- `cours/` : support projeté, version A4 et exemples de live-code ;
+- `cours/` : support projeté et exemples de live-code ;
 - `td/enonce/` : sujet du TD/TP et projet `IntArray` de départ.

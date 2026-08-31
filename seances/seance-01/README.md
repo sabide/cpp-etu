@@ -11,7 +11,7 @@ gestion manuelle de la mémoire.
 
 ## Contenu
 
-- `cours/` : support projeté, version A4 et exemples de live-code ;
+- `cours/` : support projeté et exemples de live-code ;
 - `td/enonce/` : sujet du TD/TP et code de départ.
 
 Le TD suit la démarche : prédire, compiler, lire le diagnostic, expliquer puis
