@@ -1,8 +1,7 @@
 # Programmation C++ moderne — MAM4
 
-Ce dépôt rassemble les supports étudiants du cours de programmation C++
-moderne : diapositives, sujets de TD/TP, codes de départ et exemples montrés en
-amphithéâtre.
+Ce dépôt rassemble les supports du cours de programmation C++ moderne :
+diapositives, sujets de TD/TP et codes de départ.
 
 Le cours suit un même fil rouge, `IntArray`, afin de faire apparaître chaque
 mécanisme C++ à partir d'un problème concret.
