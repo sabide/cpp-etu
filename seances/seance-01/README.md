@@ -18,4 +18,5 @@ les références et le choix entre `T`, `T&` et `const T&`.
 ## Fichiers
 
 - `cours/` : support de cours ;
-- `td/enonce/` : sujet du TD/TP et code de départ.
+- `td/enonce/` : sujet du TD/TP et code de départ ;
+- `td/correction/` : correction étudiante et programmes corrigés.
