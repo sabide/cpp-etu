@@ -11,7 +11,7 @@ mécanisme C++ à partir d'un problème concret.
 | Séance | Question principale | Cours | TD | Correction |
 |---|---|:---:|:---:|:---:|
 | 1 — Du C au C++ moderne | Comment une signature exprime-t-elle l'intention ? | oui | oui | oui |
-| 2 — Fonctions, bibliothèque et ressources | Pourquoi rapprocher données et opérations ? | oui | oui | à venir |
+| 2 — Fonctions, bibliothèque et ressources | Pourquoi rapprocher données et opérations ? | oui | oui | oui |
 
 Les corrections sont ajoutées après les séances. Elles apparaissent dans un
 répertoire `td/correction/` sans remplacer le code de départ.

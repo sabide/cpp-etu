@@ -20,4 +20,5 @@ bibliothèque standard.
 ## Fichiers
 
 - `cours/` : support de cours ;
-- `td/enonce/` : sujet du TD/TP et projet `IntArray` de départ.
+- `td/enonce/` : sujet du TD/TP et projet `IntArray` de départ ;
+- `td/correction/` : correction étudiante et versions corrigées du projet.
