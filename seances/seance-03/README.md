@@ -15,3 +15,8 @@ le destructeur et le RAII.
 - Suivez la durée de vie de l'objet pour comprendre quand la ressource est
   acquise puis libérée.
 - La copie reste provisoirement interdite : elle sera construite à la séance 4.
+
+## Fichiers
+
+- `cours/` : support de cours ;
+- `td/enonce/` : sujet du TD/TP et projet `IntArray` de départ.
