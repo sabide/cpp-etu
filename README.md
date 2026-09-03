@@ -12,10 +12,26 @@ mécanisme C++ à partir d'un problème concret.
 |---|---|:---:|:---:|:---:|
 | 1 — Du C au C++ moderne | Comment une signature exprime-t-elle l'intention ? | oui | oui | oui |
 | 2 — Fonctions, bibliothèque et ressources | Pourquoi rapprocher données et opérations ? | oui | oui | oui |
-| 3 — Classes, invariants et RAII | Comment rendre un objet responsable de son état et de sa ressource ? | oui | oui | à venir |
+| 3 — Classes, invariants et RAII | Comment rendre un objet responsable de son état et de sa ressource ? | oui | oui | oui |
+| 4 — Copie, déplacement et opérateurs | Comment donner à `IntArray` un comportement de valeur ? | oui | oui | oui |
+| 5 — Composition et héritage | Comment relier plusieurs types sans trahir leur sens ? | oui | oui | oui |
+| 6 — Interfaces abstraites et polymorphisme dynamique | Comment choisir un comportement selon le type réel ? | oui | oui | oui |
 
-Les corrections sont ajoutées après les séances. Elles apparaissent dans un
-répertoire `td/correction/` sans remplacer le code de départ.
+Un TD de synthèse avec Gmsh est également disponible après les séances 1 à 4.
+
+Les corrections apparaissent dans un répertoire `td/correction/`, sans
+remplacer le code de départ. Les séances 5 et 6 contiennent aussi un petit
+programme de démonstration dans `cours/demo_amphi.cpp`.
+
+## Organisation d'une séance
+
+Dans chaque séance, consultez :
+
+- `cours/` pour le support et les éventuels exemples ;
+- `td/enonce/` pour le sujet et le squelette à compléter ;
+- `td/correction/` pour la solution et les tests après le travail personnel.
+
+La synthèse Gmsh suit la même organisation dans `seances/synthese-gmsh/`.
 
 ## Utilisation
 
